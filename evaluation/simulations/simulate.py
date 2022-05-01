@@ -3,9 +3,9 @@ import os
 import subprocess
 
 # Simulator
-simBuildDir = r'pcn-simulation'
+simBuildDir = os.path.abspath(r'..\..')
 simBuild = r'"%s\gradlew.bat" jar' % (simBuildDir)
-simExecDir = r'pcn-simulation\build\libs'
+simExecDir = r'%s\build\libs' % (simBuildDir)
 simExec = r'java -Xmx4g -Dorg.slf4j.simpleLogger.defaultLogLevel=error -Dorg.slf4j.simpleLogger.logFile=System.err -jar "%s\PCNSimulation-1.0-SNAPSHOT.jar" %s' % (simExecDir, '%s')
 
 # Routing algorithms
