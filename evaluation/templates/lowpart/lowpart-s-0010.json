@@ -1,0 +1,237 @@
+{
+  "agents": [
+    {
+      "name": "ALICE",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "BOB",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "CAROL",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "JAMES",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "JOHN",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "ROBERT",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "MICHAEL",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "MARY",
+      "role": "HEAVY_CONSUMER"
+    },
+    {
+      "name": "WILLIAM",
+      "role": "PASSIVE_CONSUMER"
+    },
+    {
+      "name": "DAVID",
+      "role": "PASSIVE_CONSUMER"
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "name": "ALICE",
+        "keyPair": {
+          "privateKey": "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAKTCF5tKjqCRAceDAxRFZeo3L0Hxy+IElLkbyhTtWuHSOwty2PSZujwpwZYObJ35qw9ncMFxa4cFLHOSv09+b6C1lqqIf2J9EyXOf8YuSIUZgJNb0RaWLU9jedfRqdTDUprNK/maFIWdn+nZD+eSWxMRYV3kzL4Mv9BG6EFUWogfAgMBAAECgYAlrpKRnNrEFIYwqGEy6LBnghmX3oJ//gY51AZDBQpNLbT9aFYAk4xJqE8zT7c95lVeX40lYRhzuBYzlLOWrdc/ryC8inqGrx63WZZvp+gO9MunfIdNgREB1G1h9hS1lwMiLMHLfaikRmLGWnz9EtWV8fojNGBz8x2nMm+ArLpEWQJBAN+EC+X1Cw4+CixfLrCe5aa/+ceSwbqXTrx3soE72FweAu7m0AHZE7n/vKKjtmjqm4ClC1YT/zyOTAutNF/DRk0CQQC8s/SS4KyPydhALoqSueJz0WJKZYt0IOjNanV1euLonoPjMIJu0Bpxd6+xcC3RP4n3lcnqSf+RXakwcRZYVZYbAkEAmRCEVWYJvCcgMGK+RpWKDzdIhjMqF+2mLcqKo5WoBO1IdPH7YEiYCbfoJjiWoiKHewGLUdc/4uhPi2+BflLrwQJATAF7yFFAkCXvuWJFpHXEtXunyGmAMwUyX9K6fthBXwrB+pdGYhXmIL/hf2m8uqSKELQ/gOPPUaDVDdLu+iN28wJAWzJBWWBScvdDywpgYkdfNUlvwBb6tSqXO9C9I1glnxk7cYbVRFKMLEerI1OhzlMpe3kN/9l+EziWZ2QTDfpnRA\u003d\u003d",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkwhebSo6gkQHHgwMURWXqNy9B8cviBJS5G8oU7Vrh0jsLctj0mbo8KcGWDmyd+asPZ3DBcWuHBSxzkr9Pfm+gtZaqiH9ifRMlzn/GLkiFGYCTW9EWli1PY3nX0anUw1KazSv5mhSFnZ/p2Q/nklsTEWFd5My+DL/QRuhBVFqIHwIDAQAB"
+        },
+        "ipAddress": "10.0.0.1",
+        "walletAddress": "0x249398EEA9",
+        "walletBalance": 16.09524564209276
+      },
+      {
+        "name": "BOB",
+        "keyPair": {
+          "privateKey": "MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAIkXnOgl7S5AnjSGSCgemnheZ9vIR8xYfb84T0+Xe3ye92pPhKe08CSgITbFiJw6UPu7H+NCyAVEmtP3m7Ue/KK+rCkuQL6G810Q/JsO6K0CEIBizwxO/DNDl3YjA5kBgrfV2ghfPUKjyTeNU9JHeL0NQzkOSZyWlIC1VmQLTCnnAgMBAAECgYB9szv4lEXsQe2NpY5l0uG5+n3qRLKoiH8MJRp7lR7x/mRHgw/UIhCK1JR/vxFqhgIZPtOXMnVqdyQrtP59TSNA0jXU4b2w95X/SupLgX2vTzuqCgOO+cL4UjeWphAGEebDnabtqnms0hh3/snTO9MSUitNOuhTzX7VWyZcymLF8QJBAMETNwU+CUDW9TeT46ggZKTmRpgWMIixxiOrOJ06i59uD1azSM1SIBFI6BojIfU2nT8Ar4mCcJKqbtwwU7IVCJkCQQC1xZjFJzcNI66/epuD3a/RsLB/5t5m2X38XP7pbtZtQptHngUadOVjX6NxbV77kxjrkUXI5oyxYPBIOwDGNdZ/AkEAvttPuE7qtr3HCXmXwcrDsn4vqofE0ltpkjjfbg1BmAgkAYCYpt5X9L4tMikomE20g2MaIsReo5z2mZLsKU3BgQJBAIZwIYBXc6D1Li6SaOjLklj9XF0MjJr26vY2dZaCknb210/NsKqToICx4Hlo0eIxNjIsHLfsxEwAjVZuxTDT6tMCQQC52E/+8n0kwUhbkf5apRqkFmeduqwgdSRPrQCDsQnawcW8LAFUnSHGIlm3EMrRvumtHOPS9+NSW6wlnpzgRmUn",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJF5zoJe0uQJ40hkgoHpp4XmfbyEfMWH2/OE9Pl3t8nvdqT4SntPAkoCE2xYicOlD7ux/jQsgFRJrT95u1HvyivqwpLkC+hvNdEPybDuitAhCAYs8MTvwzQ5d2IwOZAYK31doIXz1Co8k3jVPSR3i9DUM5DkmclpSAtVZkC0wp5wIDAQAB"
+        },
+        "ipAddress": "10.0.0.2",
+        "walletAddress": "0x3229A3EBD3",
+        "walletBalance": 17.97472225387515
+      },
+      {
+        "name": "CAROL",
+        "keyPair": {
+          "privateKey": "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIofRPQUY7xxOlxhfVZRN1KyHdtC1feaFZgKplO1Z4MNa9x5Wmhqe5fcGKvAeh35SyT/YYJqyYpBFGnmx0jXf+Ipt0whNQ/cibc4PpEX3LeIuDV8fZlCuF05pjbW4edqmGD2kM3MLeD5q1QfLUiFlsOqBhuV2dFotBLCxWTVEBJLAgMBAAECgYArUP0l8tMIgRYFbMmK7XOFKrj0T3Sc7yTAhu58qBJrZiUigqhYwLQ7/tl526YwikMHulORO/4yrpBBWg+7h2HiTKTAHOIagjZOdEyAgBkiTF7oizzbt9pg9vFCnf+zcJlAZ+DiRrjBesp/QyOZQ9u053YgwjzjKrOyvJz77H2wyQJBAMHvlEjhNpZtgxMXMQGbz0Y+ol9m6b/E7Qb/qQqJPNOUBzIl81hYo4rr7t0QAJvSLcL9N72A0f5FkqTA/cDsxLcCQQC2UxZAJ50vIcNW86y00WMnHqy7pLemDLNUXXhL8AV5hqYOYzqD1oholRh8iGtBp63XDcUWcXfKs+KZjirZk5MNAkEAgvkuB9oxZ34mG2p6Kj/zx9jdB9kU2/I+sY9PtlHgxnMeOPvwUCXsrRGRi7IW9yUGyr0AO/cX2sVZt/KubPB6GQJBALBYlMDgj+uyYFmNvpH1pE2GIdQscWSuDBWhgmUQdnsgfSSVXVd+/NkKvHBXEkaihEXpD6OxhAgPDTEwjMl9L1ECQGEp04aUB3XMhkj5mWLsfHcaMcpY6d/5aW4SV3I97Y5aXq4mmVEhhWroIhCbL4lPflxZFgOEEUX4i6L2rpfgT9Y\u003d",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKH0T0FGO8cTpcYX1WUTdSsh3bQtX3mhWYCqZTtWeDDWvceVpoanuX3BirwHod+Usk/2GCasmKQRRp5sdI13/iKbdMITUP3Im3OD6RF9y3iLg1fH2ZQrhdOaY21uHnaphg9pDNzC3g+atUHy1IhZbDqgYbldnRaLQSwsVk1RASSwIDAQAB"
+        },
+        "ipAddress": "10.0.0.3",
+        "walletAddress": "0x6089D15511",
+        "walletBalance": 22.183859494874056
+      },
+      {
+        "name": "JAMES",
+        "keyPair": {
+          "privateKey": "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKyyHfYlUAGECWHpDDxfUh7WSjY6+T7rlTMY7XsDK3Xd1DA29Os2FId8rSwtC2CIh6kQpTKRkOsk8Kr+Smi35OpEA9vwnaQPB+jh+K37cOrfsAQx8ysd5pJ+yxirTaMHLcthEz8vLswuL0+Ee+a3jDc6yHlH1Jznoe0J16TTGHM9AgMBAAECgYAL7HxvG2JryF8ReJLUtEwqPud+2RGOi5uQnJ8BCFX+3GMjNRgyCVjfhfc6/p0zfBnJzZFqbWyRH8rSM56VnmTavrMxP17AjhtHXI+7KNW/uOHhhuieYCnn14qMPeTDKu6+fYE/IatWUrqA6bprUXjUCA7gWZEDDkqm+PhpBSlqoQJBAO8HLz2ykWzrQjnIxl5d58/gXDl2iwaG+ADt7lTHVvQ6Ym3t1UnMBb9njZqxyinHxfNRQ4Zkp7+iw4AvZhDBL7UCQQC49TWw0zPZu/BFAbL3mUnbgIqtSnvz1CWVUgER9LoveCqlp2LUN5vxBlloKIgqMBNQsUn7+LhDypbq8Z94JZppAkA5q34WYLL9mHVOA8b4laeMXBFkO9mnJYFImB9cjQvJuRxucWd4eqUYXR+pJyQjmHOGFSE5l6dxcQ/CKa1ydWnRAkEAg30XuWi8oNsiOfy2PZ3FSv48GGwuaK52NYyB5EEGJ/8W2oOAF/ycqSHpZ8oA23UoFiKjxTUR0mfxGH/D7gdVmQJBAJKA2VtCw2q2iSECXCix/B47CWiFgWRtcNCagn7mjEfvVEwvM1j837bJKV9385O+TTJNb5CKBRP14fm8UWvFp58\u003d",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCssh32JVABhAlh6Qw8X1Ie1ko2Ovk+65UzGO17Ayt13dQwNvTrNhSHfK0sLQtgiIepEKUykZDrJPCq/kpot+TqRAPb8J2kDwfo4fit+3Dq37AEMfMrHeaSfssYq02jBy3LYRM/Ly7MLi9PhHvmt4w3Osh5R9Sc56HtCdek0xhzPQIDAQAB"
+        },
+        "ipAddress": "10.0.0.4",
+        "walletAddress": "0xB61795B11F",
+        "walletBalance": 24.80234471127357
+      },
+      {
+        "name": "JOHN",
+        "keyPair": {
+          "privateKey": "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAMgK548X98Raq10swtK0sYoeQFuqPLA2ovxoQpeG3wS26apCigaVOfs+kROSHgSJpfDMObFIBRzybBmjggG0gF4dL+pYCjiiO9s81joDYiyjEWgGWKhC76Vn8OjelRqBg5cmH258vyhjlJswZOPYkftsg1WeX0BuAV8kZKxKL5ORAgMBAAECgYAyLkoYIzMMFpKWNPxKTvmaZCxQ0kuXCJ2qI51Q1YxsalYDV923+Qcqd299MVJGYSE3XoO6bQ6bTFTBubqLIvRwNW91DQG/7qh0E7lCXRgnNYWfwvp6bGCOGcFHxgUiieHWNjFEXiShpAo8JD/b+4MG5BXockURgqg/tjf+l06mAQJBAPf1fvELLx7uJdz5QGHvlj/X3kamDGhl+vXixwBmbcblF/Tp5rTB8q5tI91BcDBKlb9UiOhNCXyidtTcpQm43zkCQQDOh53o8iENE51EP8rQ/upjBmFgnNlJXMfPHyzXYP53CCJiTKlNBM/riGHMCalL3DnXFu9282LMGHx0CULvCP8ZAkEAoWpQC8xzDViMj3A26EpWbhMx4J3hv+h7WawaTflgBzVFxiqqBAup1sC3syYRSW6UUyxNv6O+xELixqkoSs7tiQJAVb3nyPX80rj56YOyZ+Hs3P+hHcMAUny6VzrSGvihrDksTTMWdmsxBs+wCk1Yg64CNVHISNHyilkAEgxmRWauwQJBAKct4AGzXtQQAiqlvYWn/+/TD9fwFPw4h45tOHxtS0u96+xhsI6sD/MK46AOZbmRlfn6IZ4/pxUyZebCanmFeEk\u003d",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDICuePF/fEWqtdLMLStLGKHkBbqjywNqL8aEKXht8EtumqQooGlTn7PpETkh4EiaXwzDmxSAUc8mwZo4IBtIBeHS/qWAo4ojvbPNY6A2IsoxFoBlioQu+lZ/Do3pUagYOXJh9ufL8oY5SbMGTj2JH7bINVnl9AbgFfJGSsSi+TkQIDAQAB"
+        },
+        "ipAddress": "10.0.0.5",
+        "walletAddress": "0xAB75B14A98",
+        "walletBalance": 23.543546214523733
+      },
+      {
+        "name": "ROBERT",
+        "keyPair": {
+          "privateKey": "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKdX6rDKFydOAqzaxNWLW8lxCFxdn59mc9pYcdExPAze55WDwWrljOYkVNCTQpRmoPRty4VFKUp5h2/ZFJyt/cat5Fr/xx0ggg5nW43HXkp9hF/qoxobo+W0fF5rwhChwRS2Yi2voXO01xcPFUzBsp3uFnwljwNmvbuy4OIeprhVAgMBAAECgYAHywRW71JctjlRq253M2I241isVH/WgILsrCnAwDY3szm9sMEVJVOGdDKu8+yp1I2yVFqh/jKKEVbJUqavFTs4LdIprhwxdjVkvEBN8Ujf9/qa/BN8eDO5sozFyQ48vseFvtIW3Kp24moRjADZw86VuBBgRVN1im2/XzkVmrKwAQJBAPenJF8Y7Q9uLx7ZXSdXdYv3Pp9KRh9/W821a/bzbYhMX+1EGpn6T9z7gJjz15J/gTsU+/TRX5P+oPkqSn3Od1UCQQCs+9RMTu/IB+HUVQvrnguPsyFnqKKwooi0Pgca4vPfuXF8TDwfRYrF/tICgvHxGXwZf6CXxHICHTvcO7kyxT0BAkEApl7PzV8WaqZP236U2QglPJklpaclAqXxi3lUhXs1WzpLuz5kTIrfOgpvctFlQdKMg59uQCKj/e0yQRFLJ8cbXQJAb/o025Ddt2ci0QicxtFwOn2Cyk9nwV/1jnf4sXbo15J73DKdWMDzrGfgGrAZXjFZHEh59MS96JB0B4TBxhPYAQJBAJ5KOzraTtwTwWMN/mZX0mK47hS30J27EfO4QtmBkUknMzaLai40vBOXbw9mbcK83IAXZy+nvu8b4renuFFrzEM\u003d",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnV+qwyhcnTgKs2sTVi1vJcQhcXZ+fZnPaWHHRMTwM3ueVg8Fq5YzmJFTQk0KUZqD0bcuFRSlKeYdv2RScrf3GreRa/8cdIIIOZ1uNx15KfYRf6qMaG6PltHxea8IQocEUtmItr6FztNcXDxVMwbKd7hZ8JY8DZr27suDiHqa4VQIDAQAB"
+        },
+        "ipAddress": "10.0.0.6",
+        "walletAddress": "0x09955356A2",
+        "walletBalance": 23.320078971311826
+      },
+      {
+        "name": "MICHAEL",
+        "keyPair": {
+          "privateKey": "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIsilwvGlP6nhjQeqKq0+932b6yFZBnVj3QdH/O88hLAIGRniUIZQ8QJFPt4nngSW9BKGuznoLjVLLexnJQegxu+xXf1b6w2+h1jM9d7o+bq6OlnwEzv2MXQt2tpdhgYnq701E0Anm8uqDQMb2CRaQmoH1LzEVAUNpT4YEoHGpjNAgMBAAECgYBMh6otf/1UVTEsWfDMdOBVJsgmTPjSfPV7GMoKd1NvnN40W/7TrLHpklVIPQBtayu1Vg2ZYY62HAuMvtUxY9cZC7gUtNqx0jmuLmh4WJFYmBvfA2SdxQkzDDL5yH/CEw1qlRo0rKXl52tU7QxzYwbtnjZVs+yrgUdQ8OkqIGtiwQJBAMlVB5Ufn1KsVctlyqt0vTgGmw7OYQAQG8a5yIRFjsZdosSLkbJS3uf2H3U8nBnkrGDJBIV5pdyVggU3ionS3a8CQQCw6iEzUilvEs4DIm0pMspprU49McV2YalRpWt6UCm93J5oYaj2nT4ktmyXanD0i9vvedf054xZIQBezhwG16xDAkEAwK5o6FXwQ838+gE8WqUJ5lGkGiJ3gPjprGHnPnfXcY7xlMrCMHjRLgxGBQxxlPJd6u7XLerDSv2nBtkl9EtjrwJBAKPhrrGgyZsH22jR6jcAwrpT/Sb4xQddfoCQcNhUC+bByMe+t8sDbD6L8lntEwelyy2yO9e06rDhvjsUSKgZ/4sCQHzZmUa39gIn9GUskfMXUN0TCsc6GKNHKL0iIPYw5isscIEkLmU/B76roT2zeu56BdgDWkIG8T+zyukRXyDBMdQ\u003d",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCLIpcLxpT+p4Y0HqiqtPvd9m+shWQZ1Y90HR/zvPISwCBkZ4lCGUPECRT7eJ54ElvQShrs56C41Sy3sZyUHoMbvsV39W+sNvodYzPXe6Pm6ujpZ8BM79jF0LdraXYYGJ6u9NRNAJ5vLqg0DG9gkWkJqB9S8xFQFDaU+GBKBxqYzQIDAQAB"
+        },
+        "ipAddress": "10.0.0.7",
+        "walletAddress": "0xF77C5FBA43",
+        "walletBalance": 19.882607146971615
+      },
+      {
+        "name": "MARY",
+        "keyPair": {
+          "privateKey": "MIICeQIBADANBgkqhkiG9w0BAQEFAASCAmMwggJfAgEAAoGBALjXoQZeOSzX6CLIuRazFZ/8pqPe/b5ydnybbEooxoAFsOfi2L2sTIA4j3M1mOZh4qQ99T7YYZN73MDJHa4w02SxnV4GI8DWOjQ0peBk+IkeLaisFiA0RzLFVsafGkKH+mqeARRUwpsYveHau+NKjaknEkLM3IDokvhHr8EXvhJlAgMBAAECgYEAg+zqsbfYSOhEd2cZq1jgC1LwwK7sHdxmMuNfM8LMgh0NuUNP/HgYFb/IqqrLWUrtztmly1f2tKPH2BTyyRtyFAo4vDswRB/9gZV7iEpBpeUb4yEM3keS51PX/9PT6IYB+q19Gc3Tdki9fU98yknWip2rgE3aXBknxco3uOqJRfUCQQDlYb/CDle2DqIquxfzwqGmbjHFUb7uruDDjRDr30rte76pKqefa3aHRj45yDBD3LbO6GIuiEpYxzK2YlOuDbInAkEAzkq+PsLao9NQpxtV1UYgFl4rYpxBaqE97CPwiTGQCce88/f2LgedK5xDp3bbEZbBfbwyzgGU9+Hjc0TtVQLKkwJBAL9AoDT55nH6g4XjVxY8WrG8wSzHes3h66/Ah7JTDFM0UQUVdot6e2pQzAM7gdqjRZ0ArxQjOPIKrKLbGvBNpRMCQQC5rxFbEK0YdSbNo48472wGdjD7C8beIdDI8viZpOEPzJfJydHvUK8qB/fljthVFquHb5UTVN0v2kWPBeXSdTa9AkEA16OjweqZeyD0ZOp4miR5MLRPorFntotxz272uiG1+o2T/EeuB7tQZlcqsWcpt9xKtBc0nlUQ5+dGuY8ONKv2LA\u003d\u003d",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC416EGXjks1+giyLkWsxWf/Kaj3v2+cnZ8m2xKKMaABbDn4ti9rEyAOI9zNZjmYeKkPfU+2GGTe9zAyR2uMNNksZ1eBiPA1jo0NKXgZPiJHi2orBYgNEcyxVbGnxpCh/pqngEUVMKbGL3h2rvjSo2pJxJCzNyA6JL4R6/BF74SZQIDAQAB"
+        },
+        "ipAddress": "10.0.0.8",
+        "walletAddress": "0xFEE90C6941",
+        "walletBalance": 24.643271302388364
+      },
+      {
+        "name": "WILLIAM",
+        "keyPair": {
+          "privateKey": "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAKinJIa2Pe1mJLthTUbpuuWYAM0zN8C9BWNwYZXZ8ivlSCVcCC7G/QyReVb98gsh9X5MBychVBZhuCm3VIqg7po+WZwyYfBE984cF5tD3d62hZQIynIVHbEuwFydjV9lATtSKPHJBtDNqEmTL8IF95u7V0Xss5vLT/hXtIWkbMtFAgMBAAECgYABXyKf6dmFFcCUuYzcV8hKV7sh8Bmy+paRoXdZtaUPkFTO4Pm8D6g9Mu2utHAEgSky9sFUIyRA7liGFlScsARgv2HR/ewU3/+RlNxcVxNYGH9LOuav7ZZus5Wzv9vs2IkXouVqbPY79S6471yvAOb/V4N+FYQO16Z2Pv3OdnacfQJBANDfX8Ctwk+nSC3aIsyKFTvFhDJBhP4en9WUjpa/0ymmU/Kt8yPAaUlJwHWB3iutgyteFffYuU/B0ssd7xIML78CQQDOtKcxyeP0JA6cIvUidz86rubrOj0q/u3MP9EefnCiK0WEcEYHa20UnOsOfios5o54hKrox4ApRxyvn/ndRMX7AkAsalOCNXDMX1YJ6gjcVcCOJUInLaeKIhj64cwwYjoU8TmIsVSylYfN/dDfK+6CezMZVbh2K6+8NgsNBiCARfchAkARKTxsTMepIEk6O0jAyMeuFpFDXD1x0WJqv62b64FsZU1LNosJ2KhgurplJKJZwfZ4GQObedyxEJ9YEV8MOMZ7AkAb96eL5aRhBzHICpASh9sWbn9xoc9HzVd2vlNNKjYh4+1UHDDNrRsdA0+lTMFr5pbdRjbOq8+xvSLF1MHbx9gF",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCopySGtj3tZiS7YU1G6brlmADNMzfAvQVjcGGV2fIr5UglXAguxv0MkXlW/fILIfV+TAcnIVQWYbgpt1SKoO6aPlmcMmHwRPfOHBebQ93etoWUCMpyFR2xLsBcnY1fZQE7UijxyQbQzahJky/CBfebu1dF7LOby0/4V7SFpGzLRQIDAQAB"
+        },
+        "ipAddress": "10.0.0.9",
+        "walletAddress": "0xD38F95C398",
+        "walletBalance": 17.732639344793007
+      },
+      {
+        "name": "DAVID",
+        "keyPair": {
+          "privateKey": "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAKZxnrDhdjtMYbwq49y37qNde4EEg7/c8kFVbJFSCaFbWcW0MjSfkDNsYBxEJ1ykfX2FcS1qb97PO/VA0o+T6vgFh44zPMzAw9IBHOELfy9DIfGQFXcQ8/vCBmFgAMciuLPHCxLZbq7Mmq9rfEPYTizJCRYpxzP6141lOX2JI493AgMBAAECgYBjM/Mmb6r9WuAhu9qF0ibsvan/0sYH09Ob9yM3VhMhVgYinO0TikrzK1P5ZPGk+PFGoAM902OMBC4zVghpxPrVFLv8su/+D3zlOZw2698T6OoFwIbsxeglGYKrE9Bp+tgb3SnlHzDBMYqZZF8nqgxFgIxIq3Aci6UTdAjH9+wjwQJBANA4YSflVzb/NvyxjbmqQ1vsvKIaPTdqkzkv9RfyrWmICwqJE9biMAe1l0Y1K+WOBYhT74NhK00AmTW0lb5JX5cCQQDMoyQcpVT+wSj7xZaTILSCkup5aPzoFjscrk8+p1S01MhYAzrLK2kUmqz/M+qvnrLo8/SCH9r5XmUlp3G4W0shAkAaRZLUotY/RTJd7dUxAO+g0Jz4YxEoRdUvmQJ2tBL3RsgF20fajA19W4crv5e7ThEao2SMEh2RiKrMIO3n5YAfAkATtYK834+YGbKAzT77XKMGEHBU0S/KipmW4ZLwTd1yrSu+jlETUFMGkP8odS+dSoOgvB5Iihjk+5pyTfY9800BAkA9iv9/56MqVvYNin4u3ADduoqgG/xPkK9PZnjXfptdZMJLKuHpMmMl72PekmtjFthtoQEtQb7lishaXmt9oD4N",
+          "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmcZ6w4XY7TGG8KuPct+6jXXuBBIO/3PJBVWyRUgmhW1nFtDI0n5AzbGAcRCdcpH19hXEtam/ezzv1QNKPk+r4BYeOMzzMwMPSARzhC38vQyHxkBV3EPP7wgZhYADHIrizxwsS2W6uzJqva3xD2E4syQkWKccz+teNZTl9iSOPdwIDAQAB"
+        },
+        "ipAddress": "10.0.0.10",
+        "walletAddress": "0xD38610428F",
+        "walletBalance": 8.851559543742926
+      }
+    ],
+    "channels": [
+      {
+        "fromWallet": "0xAB75B14A98",
+        "toWallet": "0xB61795B11F",
+        "fromBalance": 6.064218728595116,
+        "toBalance": 8.260656995797433
+      },
+      {
+        "fromWallet": "0x6089D15511",
+        "toWallet": "0xB61795B11F",
+        "fromBalance": 10.08241005477337,
+        "toBalance": 11.474499453877165
+      },
+      {
+        "fromWallet": "0xF77C5FBA43",
+        "toWallet": "0xAB75B14A98",
+        "fromBalance": 1.5269870364834293,
+        "toBalance": 2.4795068266584153
+      },
+      {
+        "fromWallet": "0x3229A3EBD3",
+        "toWallet": "0xB61795B11F",
+        "fromBalance": 4.129010955906962,
+        "toBalance": 3.602807535176684
+      },
+      {
+        "fromWallet": "0xD38610428F",
+        "toWallet": "0x3229A3EBD3",
+        "fromBalance": 1.6572373776752167,
+        "toBalance": 2.0684107310006055
+      },
+      {
+        "fromWallet": "0x6089D15511",
+        "toWallet": "0xD38F95C398",
+        "fromBalance": 2.735071730932308,
+        "toBalance": 5.176769849638118
+      },
+      {
+        "fromWallet": "0x09955356A2",
+        "toWallet": "0xB61795B11F",
+        "fromBalance": 5.324123961540036,
+        "toBalance": 1.2663138675210894
+      },
+      {
+        "fromWallet": "0x09955356A2",
+        "toWallet": "0x3229A3EBD3",
+        "fromBalance": 2.8635437171164506,
+        "toBalance": 3.2803856878581628
+      },
+      {
+        "fromWallet": "0xF77C5FBA43",
+        "toWallet": "0xFEE90C6941",
+        "fromBalance": 1.9349968375508004,
+        "toBalance": 8.780548519818383
+      },
+      {
+        "fromWallet": "0x249398EEA9",
+        "toWallet": "0xFEE90C6941",
+        "fromBalance": 5.810343900145783,
+        "toBalance": 9.346811609961902
+      },
+      {
+        "fromWallet": "0xAB75B14A98",
+        "toWallet": "0x6089D15511",
+        "fromBalance": 3.7881067347628385,
+        "toBalance": 4.459189471499203
+      },
+      {
+        "fromWallet": "0x249398EEA9",
+        "toWallet": "0xAB75B14A98",
+        "fromBalance": 3.323573468071263,
+        "toBalance": 9.136637443200168
+      },
+      {
+        "fromWallet": "0x3229A3EBD3",
+        "toWallet": "0x6089D15511",
+        "fromBalance": 5.571627867984744,
+        "toBalance": 3.3565488501015954
+      },
+      {
+        "fromWallet": "0x3229A3EBD3",
+        "toWallet": "0x249398EEA9",
+        "fromBalance": 2.43381529098681,
+        "toBalance": 5.277021995911306
+      }
+    ]
+  },
+  "cycles": [],
+  "routingAlgorithm": "BASIC",
+  "blockchainFee": 0.1
+}
