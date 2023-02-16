@@ -37,7 +37,7 @@ To build the project, follow these steps:
 
 **Run container**: To run a Docker container, type `docker run -p 8081:8081 pcn-simulator:0.2.0`. For both cases, the tool is will now be available at [http://127.0.0.1:8081](http://127.0.0.1:8081).
 
-## Evaluate
+## Evaluation Process
 
 To run the evaluation you need additional tools:
  * [Python 3](https://www.python.org/)
@@ -88,9 +88,17 @@ Evaluate routing algorithms:
 > python plot-eval-terp-success-sizes.py
 ```
 
+## Evaluation Results
+
+The results of the template-evaluation can be found in [evaluation/templates](./evaluation/templates).
+
+The results of the evaluation of the routing algorithms can be found in [evaluation/simulations](./evaluation/simulations).
+A sub-directory exists per scenario, containing the selected templates (\*.json files) in three sizes (sm, md, lg).
+
+
 ## License
 
-Refer to LICENSE.txt
+Refer to [LICENSE.txt](./LICENSE.txt)
 
 ## Authors
 
